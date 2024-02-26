@@ -26,7 +26,7 @@ class FirstViewController: UIViewController {
         
         let nvc = UINavigationController(rootViewController: vc)
         nvc.isNavigationBarHidden = true
-        
+        nvc.modalPresentationStyle = .fullScreen
         self.present(nvc, animated: true, completion: nil)
     }
     

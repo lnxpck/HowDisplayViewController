@@ -22,6 +22,7 @@ class MainViewController: UIViewController {
         
         // display viewController with the simple present method
         let vc = FirstViewController()
+        vc.modalPresentationStyle = .fullScreen
         self.present(vc, animated: true, completion: nil)
     }
 
